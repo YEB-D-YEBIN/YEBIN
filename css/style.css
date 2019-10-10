@@ -1,0 +1,606 @@
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+
+body{font-size: 1rem; font-family: 'NanumSquare', sans-serif; color: #454f5d;}
+
+#grid{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+#portfolioGrid{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 5rem 0rem 0rem 0rem;
+}
+
+#bottomPart{
+  border-top: 1px solid #454f5d;
+  margin: 3rem 0rem 3rem 0rem;
+  padding-top: 1rem;
+}
+
+#leftMenu{display: block;
+  background-color: #454f5d;
+}
+
+#YebinjeongFrame{
+  display: grid;
+  padding: 10rem 0rem 5rem 0;
+  }
+
+#now{
+    opacity: 1;
+    font-weight: 800;
+  }
+
+
+
+  #indexMenuGrid{
+    display: grid;
+    width:100rem;
+    margin: auto;
+    grid-template-columns: 1.5fr 1fr;
+  }
+
+  #blank{
+    display: inline-block; width:90%;
+  }
+
+  #blankContents{
+    width:100%; height:1px;
+  }
+
+  #coverLetter{
+    margin:4rem;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    box-shadow: 3px 3px 7px 5px lightgray;
+  }
+
+  #CvContentsBox{
+    padding:3rem;
+  }
+
+  #CvContents{
+    line-height: 180%;
+  }
+
+  #profilestyle{
+    background-color:#f2f2f3; padding:3rem;
+  }
+
+  #bottomContents{
+    color: #454f5d; opacity:0.5;
+  }
+
+  #tkssza_use1{
+    display: inline-block; width:45rem; padding: 0rem 5rem 0rem 5rem;
+  }
+
+  #tkssza_use2{
+    display: inline-block; width:30rem; padding: 0rem 5rem 0rem 5rem;
+  }
+
+  .topPart{
+    width:100rem;
+    margin: auto;
+  }
+  .yebdlg{
+      width:50%; margin-left: auto; margin-right: auto; display: block;
+    }
+
+  .subTitle{
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: left;
+  }
+
+/* color series */
+
+  .ballreadycolor{
+    color: #27A6DE;
+    font-weight: 800;
+  }
+
+  .betocolor{
+    color: red;
+    font-weight: 800;
+  }
+
+  .yomacolor{
+    color: #b2aa99;
+    font-weight: 800;
+  }
+
+  .bibcolor{
+    color:#4f439b;
+    font-weight:800;}
+
+  .YebDcolor{
+    color:#e4bdbf;
+    font-weight:800;
+  }
+
+
+
+/* 이미지마우스오버 */
+
+  .imgswap img:last-child{display:none} .imgswap:hover img:first-child{display:none} .imgswap:hover img:last-child{display:inline-block;}
+
+  /* 이미지마우스오버 */
+
+
+  .portfolioBowl{
+    margin:3rem 10rem 3rem 10rem;
+  }
+
+  .portfolioThumbs{
+    display: inline-block; margin: 1rem; width:27rem;
+    padding: 7px; background-color: white; border: .2rem solid white;
+  }
+
+  .mainMenu{
+    color: #ffffff;
+    opacity: 0.3;
+  }
+
+  .proJects{
+    display: inline;
+  }
+
+/* align series */
+
+  .centers{
+    text-align: center;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
+
+  .lefts{
+    text-align: left;
+    margin:0 0 1rem 0;
+  }
+
+  .rights{
+    text-align: right;
+  }
+
+
+
+
+/* align series */
+
+  .portfolioProjects{
+    border: solid
+    display:inline-block;
+    width:100rem;
+    margin:0rem auto 0rem auto;
+  }
+
+  .pf_next{
+    width:100%
+  }
+
+  .daySszaDetail{
+    display: inline-block; width:25rem; padding: 1rem;
+  }
+
+  .bibProblem{
+    display: inline-block; width:45%; padding: 1rem;
+  }
+
+  .bib2charac{
+    display: inline-block; width:30%; padding: 1rem 2rem;
+  }
+
+
+  .mainContents{
+    border-top: 1px solid #454f5d; border-top: 1px solid #454f5d; width:100rem; margin: 3rem auto 0rem auto;"
+  }
+
+  .buttoninContents{
+    margin: 6rem 0rem 6rem 0rem;
+  }
+
+
+
+html{font-size: 10px}
+
+li{
+  color: #454f5d;
+  opacity: 1;
+  font-size: 2.0rem;
+  padding:.8rem;
+}
+a {
+  color: #454f5d;
+  text-decoration: none;
+}
+
+ul{
+  width: 1fr;
+  margin: 0;
+  padding: 3.0rem 3.0rem 3.0rem 3.0rem;
+  list-style: none;
+  align-self: center;
+}
+
+
+body{
+  margin:0;
+}
+
+h1{
+  margin: 3rem 0rem 0rem 0rem;
+  padding-bottom:.5rem;
+  font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 800;
+  }
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    text-align: justify;
+    line-height: 140%;
+  }
+
+h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: center;
+    line-height: 150%;
+  }
+
+h5{
+  font-size: 1.05rem;
+  margin: 0;
+  padding: 0rem 0rem 1.5rem 0rem;
+  line-height: 150%;
+}
+
+iframe{
+  width: 840px;
+  height: 472.5px;
+}
+
+
+/*  */
+#myBtn {
+  display: inline-flex; /* Hidden by default */
+ position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+ right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Removeoutline */
+ background-color: #e4e5e7; /* Set a background color */
+  color: #454f5d; opacity: 0.5;/* Text color */
+ cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+ border-radius: 10px; /* Rounded corners */
+  font-size: 2.5rem; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #454f5d; /* Add a dark-grey background on hover */
+  color: #e4e5e7;
+}
+
+.portalContainer{
+  display: none;
+}
+
+.portalContainer2{
+  display:block;
+  margin: 0rem 3rem 0rem 3rem;
+}
+
+/*----- Toggle Button -----*/
+.toggle-nav {
+	display:none;
+}
+
+.menu{
+	display:none;
+}
+
+.resumeImgs{
+  box-shadow: 3px 3px 10px 5px lightgray;
+  width: 700px; align:center; z-index: 2;
+}
+
+
+
+/*  */
+
+@media(max-width: 860px){
+
+    body{font-size: 1rem; font-family: 'NanumSquare', sans-serif; color: #454f5d;}
+
+    #grid{
+        display: block;
+      }
+
+    #YEBINJEONG{
+      width:60px; margin: .5rem 0 .5rem 0;
+      }
+
+    #YebinjeongFrame{
+      padding: 2rem 0 1rem 0;
+      }
+
+      #bottomPart{
+        border-top: 1px solid #454f5d;
+        margin: 1rem 0rem 1rem 0rem;
+        padding-top: 1rem;
+      }
+
+      #leftMenu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #454f5d;
+      }
+
+      #YebinjeongFrame{
+        padding: 1rem 0 1rem 0;
+        }
+
+      #now{
+          opacity: 1;
+          font-weight: 800;
+        }
+
+
+
+      #webMenu{
+        display:none;
+      }
+
+      #coverLetter{
+        margin:3rem .5rem 3rem .5rem;
+        display: block;
+        box-shadow: 3px 3px 7px 5px lightgray;
+      }
+
+      #CvContentsBox{
+        padding:3rem;
+      }
+
+      #CvContents{
+        line-height: 150%;
+        margin:0;
+      }
+
+      #profilestyle{
+        background-color:#f2f2f3; padding:.5rem 3rem 1rem 3rem;
+      }
+
+      #portfolioGrid{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 2rem 0rem 0rem 0rem;
+      }
+
+      #bottomContents{
+        color: #454f5d; opacity:0.5;  margin:0rem 5rem 0rem 5rem;
+      }
+
+      #tkssza_use1{
+        display: inline-block; width:80%; padding: 0rem 2rem 0rem 2rem;
+      }
+
+      #tkssza_use2{
+        display: inline-block; width:80%; padding: 0rem 2rem 0rem 2rem;
+      }
+
+      .yebdlg{
+        width:90%; margin-left: auto; margin-right: auto; display: block;
+      }
+
+        .subTitle{
+          font-size: 1.6rem;
+          font-weight: 700;
+          text-align: left;
+        }
+
+        .ballreadycolor{
+          color: #27A6DE;
+          font-weight: 800;
+        }
+
+        .betocolor{
+          color: red;
+          font-weight: 800;
+        }
+
+        .yomacolor{
+          color: #b2aa99;
+          font-weight: 800;
+        }
+
+        .portfolioProjects{
+          border: solid
+          display:inline-block;
+          width:auto;
+          margin:0rem 2.5rem 0rem 2.5rem;
+        }
+
+        .pf_next{
+          width:80%;
+        }
+
+        .daySszaDetail{
+          display: inline-block; width:80%; padding: 1rem;
+        }
+
+        .bibProblem{
+          display: inline-block; width:80%; padding: 1rem;
+        }
+
+        .bib2charac{
+          display: inline-block; width:50%; padding: 1rem 2rem;
+        }
+
+        .portfolioBowl{
+          margin:2rem 1.5rem 2rem 1.5rem;
+        }
+
+        .portfolioThumbs{
+          display: inline-block; margin: 1rem; width:70%;
+          padding: 0.7rem; background-color: white; border: .2rem solid white;
+        }
+
+
+        .slide_img{
+          width: 90%; height: 60%;
+          margin: auto;
+        }
+
+        .mainContents{
+          border-top: 1px solid #454f5d; border-top: 1px solid #454f5d; margin: 2rem 2.5rem 0rem 2.5rem;
+        }
+
+        .buttoninContents{margin: 5rem 3rem 0rem 0rem;
+        }
+
+        .portalContainer2{
+          display:block;
+          margin: 0rem 3rem 0rem 3rem;
+        }
+
+        .portal{
+          width:auto;
+          height:2rem;
+        }
+
+        .portal2{
+          width:auto;
+          height:1.7rem;
+        }
+
+
+        .portalContainer{
+          display: block;
+          margin: 3rem 1rem 2rem 3rem
+        }
+
+        .resumeImgs{
+          box-shadow: .5px .5px 2px 2px lightgray;
+          margin: 0;
+          width: 100%;
+        }
+
+
+    html{font-size: 5px}
+
+    ul{border-right: none;}
+
+    li{
+      color: #454f5d;
+      opacity: 1;
+      font-size: 2.0rem;
+      padding:.4rem;
+    }
+
+    a {
+      color: #454f5d;
+      text-decoration: none;
+    }
+
+    ul{
+      width: 1fr;
+      margin: 0;
+      padding: 2.0rem 2.0rem 2.0rem 2.0rem;
+      list-style: none;
+      align-self: center;
+    }
+
+    body{
+      margin:0;
+    }
+
+    h1{
+      margin: 1.5rem 3rem 0rem 3rem;
+      font-size: 5rem;
+    }
+
+    h2{
+      font-size: 3.5rem;
+      text-align: left;
+      font-weight: 800;
+    }
+
+    h3{
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      text-align: justify;
+    }
+
+    h4{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+        text-align: center;
+    }
+
+    h5{
+      font-size: 1.05rem;
+      margin: 0rem 0rem 0rem 3rem;
+      padding: 0rem 0rem 1.5rem 0rem;
+      line-height: 150%;
+    }
+
+    iframe{
+      width: 420px;
+      height: 236px;
+    }
+
+  }
+@media(max-width: 570px){
+  #blank{
+    display: inline-block; width:80%;
+  }
+
+  #blankContents{
+    width:70%; height:1px;
+  }
+
+}
+@media(max-width: 480px){
+  iframe{
+    width: 294px;
+    height: 165.2px;
+  }
+}
+
+@media(max-width: 325px){
+  iframe{
+    width: 210px;
+    height: 118px;
+  }
+
+  #blank{
+    display: inline-block; width:40%;
+  }
+
+  #blankContents{
+    width:40%; height:1px;
+  }
+
+}

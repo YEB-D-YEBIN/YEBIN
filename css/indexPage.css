@@ -1,0 +1,19 @@
+
+#initialPage{
+  display: inline-block; width:100%;
+}
+#mobileInitial{
+  display: none;
+}
+
+@media(max-width: 860px){
+
+#initialPage{
+  display:none;
+}
+
+#mobileInitial{
+  display:inline-block; width: auto;
+  .ythumbnail-wrappper { width: 100%; }
+}
+  img {width: 100%; height: auto; }
