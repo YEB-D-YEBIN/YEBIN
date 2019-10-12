@@ -362,7 +362,7 @@ iframe{
     vertical-align: middle;}
 
     #YebinjeongFrame{
-      padding: 2rem 0 1rem 0;
+      padding: 1rem 0 1rem 0;
       }
 
       #bottomPart{
@@ -376,11 +376,6 @@ iframe{
         grid-template-columns: 1fr 1fr 1fr;
         background-color: #454f5d;
       }
-
-
-      #YebinjeongFrame{
-        padding: 1rem 0 1rem 0;
-        }
 
       #now{
           opacity: 1;
