@@ -192,7 +192,7 @@ ul.bxslider {
   .bx-wrapper img {
     /*max-width: 100%;*/
     /*이미지 크기 설정*/
-    width:95%;
+    width:85%;
     height:auto;
     display: block;
   }
