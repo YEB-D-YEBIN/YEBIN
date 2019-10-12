@@ -97,6 +97,10 @@ body{font-size: 1rem; font-family: 'NanumSquare', sans-serif; color: #454f5d;}
     text-align: left;
   }
 
+  .solutionPoint{
+  height:28rem;
+  }
+
 /* color series */
 
   .ballreadycolor{
@@ -434,6 +438,10 @@ iframe{
           font-size: 1.6rem;
           font-weight: 700;
           text-align: left;
+        }
+
+        .solutionPoint{
+        width:25rem; height: auto;
         }
 
         .ballreadycolor{
