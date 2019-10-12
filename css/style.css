@@ -26,6 +26,7 @@ body{font-size: 1rem; font-family: 'NanumSquare', sans-serif; color: #454f5d;}
 #YebinjeongFrame{
   display: grid;
   padding: 10rem 0rem 5rem 0;
+  text-align: center;
   }
 
 #now{
@@ -266,7 +267,7 @@ h4{
   }
 
 h5{
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   margin: 0;
   padding: 0rem 0rem 1.5rem 0rem;
   line-height: 150%;
@@ -345,7 +346,16 @@ iframe{
 
     #YEBINJEONG{
       width:60px; margin: .5rem 0 .5rem 0;
+      vertical-align: middle;
       }
+
+    #yebinneon{line-height: 50px;}
+    #yebinneon img{width:60px; margin: .5rem 0 .5rem 0;
+    vertical-align: middle;}
+
+    #yebinMobileMenu {line-height: 50px;}
+    #yebinMobileMenu img{width:22px; margin: .5rem 0 .5rem 0;
+    vertical-align: middle;}
 
     #YebinjeongFrame{
       padding: 2rem 0 1rem 0;
@@ -362,6 +372,7 @@ iframe{
         grid-template-columns: 1fr 1fr 1fr;
         background-color: #454f5d;
       }
+
 
       #YebinjeongFrame{
         padding: 1rem 0 1rem 0;
@@ -494,7 +505,7 @@ iframe{
 
         .portalContainer2{
           display:block;
-          margin: 0rem 3rem 0rem 3rem;
+          margin: 0rem 0rem 0rem 0rem;
         }
 
         .portal{
@@ -510,7 +521,7 @@ iframe{
 
         .portalContainer{
           display: block;
-          margin: 3rem 2.5rem 2rem 3rem
+          margin: 3rem 2.5rem 3rem 3rem
         }
 
         .resumeImgs{
@@ -579,7 +590,7 @@ iframe{
     }
 
     h5{
-      font-size: 1.05rem;
+      font-size: 1.5rem;
       margin: 0rem 0rem 0rem 0rem;
       padding: 0rem 0rem 1.5rem 0rem;
       line-height: 150%;
