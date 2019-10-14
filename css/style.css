@@ -332,6 +332,44 @@ iframe{
 
 /*  */
 
+@media(max-width: 1300px){
+  #grid{
+      display: block;
+    }
+}
+
+#YebinjeongFrame{
+  display: grid;
+  padding: 3rem 0rem 0rem 0;
+  text-align: center;
+  }
+
+#indexMenuGrid{
+  display: grid;
+  width:90%;
+  margin:0rem auto 0rem auto;
+  height: 70px;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+.topPart{
+  width:90%;
+  margin: auto;
+}
+
+.portfolioProjects{
+  border: solid
+  display:inline-block;
+  width:90%;
+  margin:0rem auto 0rem auto;
+}
+
+.mainContents{
+  width:90%; margin: 3rem auto 0rem auto;"
+}
+
+
+
 @media(max-width: 860px){
 
     body{font-size: 1rem; font-family: 'NanumSquare', sans-serif; color: #454f5d;}
