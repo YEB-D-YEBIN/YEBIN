@@ -336,7 +336,6 @@ iframe{
   #grid{
       display: block;
     }
-}
 
 #YebinjeongFrame{
   display: grid;
@@ -367,7 +366,7 @@ iframe{
 .mainContents{
   width:90%; margin: 3rem auto 0rem auto;"
 }
-
+}
 
 
 @media(max-width: 860px){
