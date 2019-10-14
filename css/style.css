@@ -127,7 +127,8 @@ body{font-size: 1rem; font-family: 'NanumSquare', sans-serif; color: #454f5d;}
     font-weight:800;
     }
 
-
+  .umZzal{display: inline-block; width:22.5rem; padding: 0; margin: .5rem; border: solid 1px #e8e6e6;
+  }
 
 /* 이미지마우스오버 */
 
@@ -383,6 +384,10 @@ iframe{
   .mainContents{
     width:90%; margin: 3rem auto 0rem auto;"
   }
+
+  .umZzal{display: inline-block; width:45%; padding: 0rem; margin: .7rem; border: solid 1px #e8e6e6;
+  }
+
   #bottomPart{
     border-top: 1px solid #454f5d;
     margin: 3rem auto 3rem auto;
@@ -503,12 +508,12 @@ iframe{
       }
 
       #filmImgs10{
-        width:95%;
+        width:80%;
         display: none;
         text-align: center;
       }
       #filmImgs33{
-        width:95%;
+        width:80%;
         display: block;
         text-align: center;
       }
@@ -629,6 +634,8 @@ iframe{
           width: 100%;
         }
 
+        .umZzal{display: inline-block; width:80%; padding: 0rem; margin: .5rem; border: solid 1px #e8e6e6;
+        }
 
     html{font-size: 5px}
 
