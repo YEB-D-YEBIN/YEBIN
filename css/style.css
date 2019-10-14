@@ -286,8 +286,8 @@ h5{
 }
 
 iframe{
-  width: 840px;
-  height: 472.5px;
+  width: 950px;
+  height: 534.87px;
 }
 
 
@@ -336,6 +336,19 @@ iframe{
   width: 700px; align:center; z-index: 2;
 }
 
+#filmImgs10{
+  display: block;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  width:95%;
+}
+#filmImgs33{
+  display: none;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  width:95%;
+}
+
 @media(max-width: 1300px){
   #grid{
       display: block;
@@ -369,6 +382,26 @@ iframe{
 
   .mainContents{
     width:90%; margin: 3rem auto 0rem auto;"
+  }
+  #bottomPart{
+    border-top: 1px solid #454f5d;
+    margin: 3rem auto 3rem auto;
+    padding-top: 1rem;
+    width: 90%;
+  }
+  #filmImgs10{
+    width:95%;
+    display: none;
+    text-align: center;
+  }
+  #filmImgs33{
+    width:95%;
+    display: block;
+    text-align: center;
+  }
+  iframe{
+    width: 840px;
+    height: 472px;
   }
 }
 
@@ -467,6 +500,17 @@ iframe{
 
       #tkssza_use2{
         display: inline-block; width:80%; padding: 0rem 2rem 0rem 2rem;
+      }
+
+      #filmImgs10{
+        width:95%;
+        display: none;
+        text-align: center;
+      }
+      #filmImgs33{
+        width:95%;
+        display: block;
+        text-align: center;
       }
 
       .yebdlg{
