@@ -395,7 +395,7 @@ iframe{
       vertical-align: middle;
       }
 
-    #yebinneon{line-height: 50px;}
+    #yebinneon{line-height: 70px;}
     #yebinneon img{width:60px; margin: .5rem 0 .5rem 0;
     vertical-align: middle;}
 
@@ -404,13 +404,14 @@ iframe{
     vertical-align: middle;}
 
     #YebinjeongFrame{
-      padding: 1rem 0 1rem 0;
+      padding:0;
       }
 
       #bottomPart{
         border-top: 1px solid #454f5d;
         width:90%;
         margin: 2.5rem auto 2.5rem auto;
+        padding-top: 2rem;
       }
 
       #leftMenu{
