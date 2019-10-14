@@ -145,6 +145,14 @@ body{font-size: 1rem; font-family: 'NanumSquare', sans-serif; color: #454f5d;}
     padding: 7px; background-color: white; border: .2rem solid white;
   }
 
+  .portfolioTitles{
+    text-align: center;
+    align: center;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding:1.7rem 0 1rem 0;
+  }
+
   .mainMenu{
     color: #ffffff;
     opacity: 0.3;
@@ -337,35 +345,35 @@ iframe{
       display: block;
     }
 
-#YebinjeongFrame{
-  display: grid;
-  padding: 3rem 0rem 0rem 0;
-  text-align: center;
+  #YebinjeongFrame{
+    display: grid;
+    padding: 3rem 0rem 0rem 0;
+    text-align: center;
+    }
+
+  #indexMenuGrid{
+    display: grid;
+    width:90%;
+    margin:0rem auto 0rem auto;
+    height: 70px;
+    grid-template-columns: 1.5fr 1fr;
   }
 
-#indexMenuGrid{
-  display: grid;
-  width:90%;
-  margin:0rem auto 0rem auto;
-  height: 70px;
-  grid-template-columns: 1.5fr 1fr;
-}
+  .topPart{
+    width:90%;
+    margin: auto;
+  }
 
-.topPart{
-  width:90%;
-  margin: auto;
-}
+  .portfolioProjects{
+    border: solid
+    display:inline-block;
+    width:90%;
+    margin:0rem auto 0rem auto;
+  }
 
-.portfolioProjects{
-  border: solid
-  display:inline-block;
-  width:90%;
-  margin:0rem auto 0rem auto;
-}
-
-.mainContents{
-  width:90%; margin: 3rem auto 0rem auto;"
-}
+  .mainContents{
+    width:90%; margin: 3rem auto 0rem auto;"
+  }
 }
 
 
@@ -528,6 +536,13 @@ iframe{
           padding: 0.7rem; background-color: white; border: .2rem solid white;
         }
 
+        .portfolioTitles{
+          text-align: center;
+          align: center;
+          display: block;
+          margin: 0 auto 0 auto;
+          padding: 1rem 0 1.5rem 0;
+        }
 
         .slide_img{
           width: 90%; height: 60%;
