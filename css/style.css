@@ -1,239 +1,28 @@
 @import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
 
-body{font-size: 1rem; font-family: 'NanumSquare', sans-serif; color: #454f5d;}
-
-#grid{
-  display: grid;
-  grid-template-columns: 300px 1fr;
+body {
+  font-size: 1rem;
+  font-family: 'NanumSquare', sans-serif;
+  color: #454f5d;
 }
 
-#portfolioGrid{
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  margin: 5rem 0rem 0rem 0rem;
+html {
+  font-size: 10px
 }
 
-#bottomPart{
-  border-top: 1px solid #454f5d;
-  margin: 3rem auto 3rem auto;
-  padding-top: 1rem;
-  width: 100rem;
-}
-
-#leftMenu{display: block;
-  background-color: #454f5d;
-}
-
-#YebinjeongFrame{
-  display: grid;
-  padding: 10rem 0rem 5rem 0;
-  text-align: center;
-  }
-
-#now{
-  opacity: 1;
-  font-weight: 800;
-  }
-
-#indexMenuGrid{
-  display: grid;
-  width:100rem;
-  margin:0rem auto 0rem auto;
-  height: 70px;
-  grid-template-columns: 1.5fr 1fr;
-  }
-
-#blank{
-  display: inline-block; width:90%;
-  }
-
-#blankContents{
-  width:100%; height:1px;
-  }
-
-#coverLetter{
-  margin:4rem;
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  box-shadow: 3px 3px 7px 5px lightgray;
-  }
-
-#CvContentsBox{
-  padding:3rem;
-  }
-
-#CvContents{
-  line-height: 180%;
-  }
-
-#profilestyle{
-  background-color:#f2f2f3; padding:3rem;
-  }
-
-#bottomContents{
-  color: #454f5d; opacity:0.5;
-  }
-
-#tkssza_use1{
-  display: inline-block; width:45rem; padding: 0rem 5rem 0rem 5rem;
-  }
-
-#tkssza_use2{
-  display: inline-block; width:30rem; padding: 0rem 5rem 0rem 5rem;
-  }
-
-  .topPart{
-    width:100rem;
-    margin: auto;
-    }
-  .yebdlg{
-    width:80rem; margin-left: auto; margin-right: auto; display: block;
-    }
-
-  .subTitle{
-    font-size: 1.6rem;
-    font-weight: 700;
-    text-align: left;
-    }
-
-  .solutionPoint{
-    height:28rem;
-    }
-
-/* color series */
-
-  .ballreadycolor{
-    color: #27A6DE;
-    font-weight: 800;
-    }
-
-  .betocolor{
-    color: red;
-    font-weight: 800;
-    }
-
-  .yomacolor{
-    color: #b2aa99;
-    font-weight: 800;
-    }
-
-  .bibcolor{
-    color:#4f439b;
-    font-weight:800;
-    }
-
-  .YebDcolor{
-    color:#e4bdbf;
-    font-weight:800;
-    }
-
-  .umZzal{display: inline-block; width:22.5rem; padding: 0; margin: .5rem; border: solid 1px #e8e6e6;
-  }
-
-/* 이미지마우스오버 */
-
-  .imgswap img:last-child{display:none} .imgswap:hover img:first-child{display:none} .imgswap:hover img:last-child{display:inline-block;}
-
-  /* 이미지마우스오버 */
-
-
-  .portfolioBowl{
-    margin:3rem 10rem 3rem 10rem;
-  }
-
-  .portfolioThumbs{
-    display: inline-block; margin: 1rem; width:27rem;
-    padding: 7px; background-color: white; border: .2rem solid white;
-  }
-
-  .portfolioTitles{
-    text-align: center;
-    align: center;
-    display: block;
-    margin: 0 auto 0 auto;
-    padding: 1rem 0 1.5rem 0;
-  }
-
-  .mainMenu{
-    color: #ffffff;
-    opacity: 0.3;
-  }
-
-  .proJects{
-    display: inline;
-  }
-
-/* align series */
-
-  .centers{
-    text-align: center;
-    display: block;
-    margin: 0 auto 0 auto;
-  }
-
-  .lefts{
-    text-align: left;
-    margin:0 0 1rem 0;
-  }
-
-  .rights{
-    text-align: right;
-  }
-
-
-
-
-/* align series */
-
-  .portfolioProjects{
-    border: solid
-    display:inline-block;
-    width:100rem;
-    margin:0rem auto 0rem auto;
-  }
-
-
-  .pf_next{
-    width:100%
-  }
-
-  .daySszaDetail{
-    display: inline-block; width:25rem; padding: 1rem;
-  }
-
-  .bibProblem{
-    display: inline-block; width:45%; padding: 1rem;
-  }
-
-  .bib2charac{
-    display: inline-block; width:30%; padding: 1rem 2rem;
-  }
-
-
-  .mainContents{
-    width:100rem; margin: 3rem auto 0rem auto;
-  }
-
-  .buttoninContents{
-    margin: 4rem 0rem 4rem 0rem;
-  }
-
-
-
-html{font-size: 10px}
-
-li{
+li {
   color: #454f5d;
   opacity: 1;
   font-size: 2.0rem;
-  padding:.8rem;
+  padding: .8rem;
 }
+
 a {
   color: #454f5d;
   text-decoration: none;
 }
 
-ul{
+ul {
   width: 1fr;
   margin: 0;
   padding: 3.0rem 3.0rem 3.0rem 3.0rem;
@@ -241,502 +30,819 @@ ul{
   align-self: center;
 }
 
-
-body{
-  margin:0;
+body {
+  margin: 0;
 }
 
-h1{
-  margin: 3rem 0rem 0rem 0rem;
-  padding-bottom:.5rem;
-  font-size: 3rem;
+h1 {
+  margin: .5rem 0rem 0rem 0rem;
+  padding-bottom: .5rem;
+  font-size: 4rem;
   font-weight: 800;
 }
 
-h2{
-    font-size: 2rem;
-    text-align: left;
-    font-weight: 800;
-  }
+h2 {
+  font-size: 3rem;
+  text-align: left;
+  font-weight: 800;
+}
 
-h3{
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    text-align: justify;
-    line-height: 140%;
-  }
+h3 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  text-align: justify;
+  line-height: 160%;
+}
 
-h4{
-    font-size: 1.3rem;
-    font-weight: 600;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    text-align: center;
-    line-height: 150%;
-  }
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  text-align: center;
+  line-height: 150%;
+}
 
-h5{
-  font-size: 1.3rem;
+h5 {
+  font-size: 1.5rem;
   margin: 0;
   padding: 0rem 0rem 1.5rem 0rem;
   line-height: 150%;
 }
 
-iframe{
+iframe {
   width: 950px;
   height: 534.87px;
 }
 
+#bottomContents {
+  color: #454f5d;
+  opacity: 0.5;
+}
 
-/*  */
+#bottomPart {
+  border-top: 1px solid #454f5d;
+  margin: 3rem auto 3rem auto;
+  padding-top: 1rem;
+  width: 100rem;
+}
+
+#blank {
+  display: inline-block;
+  width: 90%;
+}
+
+#blankContents {
+  width: 100%;
+  height: 1px;
+}
+
+#coverLetter {
+  margin: 4rem;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  box-shadow: 3px 3px 7px 5px lightgray;
+}
+
+#CvContentsBox {
+  padding: 3rem;
+}
+
+#CvContents {
+  line-height: 180%;
+}
+
+#filmImgs10 {
+  display: block;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  width: 95%;
+}
+
+#filmImgs33 {
+  display: none;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  width: 95%;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+
+#indexMenuGrid {
+  display: grid;
+  width: 100rem;
+  margin: 0rem auto 0rem auto;
+  height: 70px;
+  grid-template-columns: 1.5fr 1fr;
+}
+
+#leftMenu {
+  display: block;
+  background-color: #454f5d;
+}
+
+#now {
+  opacity: 1;
+  font-weight: 800;
+}
+
+#portfolioGrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 5rem 0rem 0rem 0rem;
+}
+
+#profilestyle {
+  background-color: #f2f2f3;
+  padding: 3rem;
+}
+
+#tkssza_use1 {
+  display: inline-block;
+  width: 45rem;
+  padding: 0rem 5rem 0rem 5rem;
+}
+
+#tkssza_use2 {
+  display: inline-block;
+  width: 30rem;
+  padding: 0rem 5rem 0rem 5rem;
+}
+
+#YebinjeongFrame {
+  display: grid;
+  padding: 10rem 0rem 5rem 0;
+  text-align: center;
+}
+
+.topPart {
+  width: 100rem;
+  margin: auto;
+}
+
+.yebdlg {
+  width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.subTitle {
+  font-size: 1.7rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.solutionPoint {
+  height: 28rem;
+}
+
+/* color series */
+.ballreadycolor {
+  color: #27A6DE;
+  font-weight: 800;
+}
+
+.betocolor {
+  color: red;
+  font-weight: 800;
+}
+
+.yomacolor {
+  color: #b2aa99;
+  font-weight: 800;
+}
+
+.bibcolor {
+  color: #4f439b;
+  font-weight: 800;
+}
+
+.YebDcolor {
+  color: #e4bdbf;
+  font-weight: 800;
+}
+
+.umZzal {
+  display: inline-block;
+  width: 22.5rem;
+  padding: 0;
+  margin: .5rem;
+  border: solid 1px #e8e6e6;
+}
+
+/* 이미지마우스오버 */
+.imgswap img:last-child {
+  display: none
+}
+
+.imgswap:hover img:first-child {
+  display: none
+}
+
+.imgswap:hover img:last-child {
+  display: inline-block;
+}
+
+/* 이미지마우스오버 */
+.portfolioBowl {
+  margin: 3rem 10rem 3rem 10rem;
+}
+
+.portfolioThumbs {
+  display: inline-block;
+  margin: 1rem;
+  width: 27rem;
+  padding: 7px;
+  background-color: white;
+  border: .2rem solid white;
+}
+
+.portfolioTitles {
+  text-align: center;
+  align: center;
+  display: block;
+  margin: 0 auto 0 auto;
+  font-size: 2rem;
+  padding: 1rem 0 1.5rem 0;
+}
+
+.mainMenu {
+  color: #ffffff;
+  opacity: 0.3;
+}
+
+.proJects {
+  display: inline;
+}
+
+/* align series */
+.centers {
+  text-align: center;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.lefts {
+  text-align: left;
+  margin: 0 0 1rem 0;
+}
+
+.rights {
+  text-align: right;
+}
+
+/* align series */
+
+.portfolioProjects {
+  border: solid display:inline-block;
+  width: 100rem;
+  margin: 0rem auto 0rem auto;
+}
+
+.pf_next {
+  width: 100%
+}
+
+.daySszaDetail {
+  display: inline-block;
+  width: 25rem;
+  padding: 1rem;
+}
+
+.bibProblem {
+  display: inline-block;
+  width: 45%;
+  padding: 1rem;
+}
+
+.bib2charac {
+  display: inline-block;
+  width: 30%;
+  padding: 1rem 2rem;
+}
+
+.mainContents {
+  width: 100rem;
+  margin: 3rem auto 0rem auto;
+}
+
+.buttoninContents {
+  margin: 4rem 0rem 4rem 0rem;
+}
+
+/* TOP Botton */
 #myBtn {
-  display: inline-flex; /* Hidden by default */
- position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
- right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Removeoutline */
- background-color: #e4e5e7; /* Set a background color */
-  color: #454f5d; opacity: 0.5;/* Text color */
- cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 10px; /* Some padding */
- border-radius: 10px; /* Rounded corners */
-  font-size: 2.5rem; /* Increase font size */
+  display: inline-flex;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Removeoutline */
+  background-color: #e4e5e7;
+  /* Set a background color */
+  color: #454f5d;
+  opacity: 0.5;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 10px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 2.5rem;
+  /* Increase font size */
 }
 
 #myBtn:hover {
-  background-color: #454f5d; /* Add a dark-grey background on hover */
+  background-color: #454f5d;
+  /* Add a dark-grey background on hover */
   color: #e4e5e7;
 }
 
-.portalContainer{
+/* TOP Botton */
+.portalContainer {
   display: none;
 }
 
-.portalContainer2{
-  display:block;
+.portalContainer2 {
+  display: block;
   margin: 0rem 3rem 0rem 3rem;
 }
 
 /*----- Toggle Button -----*/
 .toggle-nav {
-	display:none;
-}
-
-.menu{
-	display:none;
-}
-
-.resumeImgs{
-  box-shadow: 3px 3px 10px 5px lightgray;
-  width: 700px; align:center; z-index: 2;
-}
-
-#filmImgs10{
-  display: block;
-  text-align: center;
-  margin: 0 auto 0 auto;
-  width:95%;
-}
-#filmImgs33{
   display: none;
-  text-align: center;
-  margin: 0 auto 0 auto;
-  width:95%;
 }
 
-@media(max-width: 1300px){
-  #grid{
-      display: block;
-    }
+.menu {
+  display: none;
+}
 
-  #YebinjeongFrame{
+.resumeImgs {
+  box-shadow: 3px 3px 10px 5px lightgray;
+  width: 700px;
+  align: center;
+  z-index: 2;
+}
+
+@media(max-width: 1300px) {
+
+  iframe {
+    width: 840px;
+    height: 472px;
+  }
+
+  .topPart {
+    width: 90%;
+    margin: auto;
+  }
+
+  .portfolioProjects {
+    border: solid display:inline-block;
+    width: 90%;
+    margin: 0rem auto 0rem auto;
+  }
+
+  .mainContents {
+    width: 90%;
+    margin: 3rem auto 0rem auto;
+  }
+
+  .umZzal {
+    display: inline-block;
+    width: 45%;
+    padding: 0rem;
+    margin: .7rem;
+    border: solid 1px #e8e6e6;
+  }
+
+  #grid {
+    display: block;
+  }
+
+  #YebinjeongFrame {
     display: grid;
     padding: 3rem 0rem 0rem 0;
     text-align: center;
-    }
+  }
 
-  #indexMenuGrid{
+  #indexMenuGrid {
     display: grid;
-    width:90%;
-    margin:0rem auto 0rem auto;
+    width: 90%;
+    margin: 0rem auto 0rem auto;
     height: 70px;
     grid-template-columns: 1.5fr 1fr;
   }
 
-  .topPart{
-    width:90%;
-    margin: auto;
-  }
-
-  .portfolioProjects{
-    border: solid
-    display:inline-block;
-    width:90%;
-    margin:0rem auto 0rem auto;
-  }
-
-  .mainContents{
-    width:90%; margin: 3rem auto 0rem auto;"
-  }
-
-  .umZzal{display: inline-block; width:45%; padding: 0rem; margin: .7rem; border: solid 1px #e8e6e6;
-  }
-
-  #bottomPart{
+  #bottomPart {
     border-top: 1px solid #454f5d;
     margin: 3rem auto 3rem auto;
     padding-top: 1rem;
     width: 90%;
   }
-  #filmImgs10{
-    width:95%;
+
+  #filmImgs10 {
+    width: 95%;
     display: none;
     text-align: center;
   }
-  #filmImgs33{
-    width:95%;
+
+  #filmImgs33 {
+    width: 95%;
     display: block;
     text-align: center;
-  }
-  iframe{
-    width: 840px;
-    height: 472px;
   }
 }
 
 /*  */
-
-@media(max-width: 860px){
-
-    body{font-size: 1rem; font-family: 'NanumSquare', sans-serif; color: #454f5d;}
-
-    #indexMenuGrid{
-      display: grid;
-      width:auto;
-      height: 50px;
-      margin:0rem 2.5rem 0rem 2.5rem;
-      grid-template-columns: 5rem 1fr;
-    }
-
-    #grid{
-        display: block;
-      }
-
-    #YEBINJEONG{
-      width:60px; margin: .5rem 0 .5rem 0;
-      vertical-align: middle;
-      }
-
-    #yebinneon{line-height: 70px;}
-    #yebinneon img{width:60px; margin: .5rem 0 .5rem 0;
-    vertical-align: middle;}
-
-    #yebinMobileMenu {line-height: 50px;}
-    #yebinMobileMenu img{width:25px; margin: .5rem 0 .5rem 0;
-    vertical-align: middle;}
-
-    #YebinjeongFrame{
-      padding:0;
-      }
-
-      #bottomPart{
-        border-top: 1px solid #454f5d;
-        width:90%;
-        margin: 2.5rem auto 2.5rem auto;
-        padding-top: 2rem;
-      }
-
-      #leftMenu{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: #454f5d;
-        height: 70px;
-      }
-
-      #now{
-          opacity: 1;
-          font-weight: 800;
-        }
-
-
-
-      #webMenu{
-        display:none;
-      }
-
-      #coverLetter{
-        margin:3rem .5rem 3rem .5rem;
-        display: block;
-        box-shadow: 3px 3px 7px 5px lightgray;
-      }
-
-      #CvContentsBox{
-        padding:3rem;
-      }
-
-      #CvContents{
-        line-height: 150%;
-        margin:0;
-      }
-
-      #profilestyle{
-        background-color:#f2f2f3; padding:.5rem 3rem 1rem 3rem;
-      }
-
-      #portfolioGrid{
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        margin: 2rem 0rem 0rem 0rem;
-      }
-
-      #bottomContents{
-        color: #454f5d; opacity:0.5;  margin:0rem 5rem 0rem 5rem;
-      }
-
-      #tkssza_use1{
-        display: inline-block; width:80%; padding: 0rem 2rem 0rem 2rem;
-      }
-
-      #tkssza_use2{
-        display: inline-block; width:80%; padding: 0rem 2rem 0rem 2rem;
-      }
-
-      #filmImgs10{
-        width:80%;
-        display: none;
-        text-align: center;
-      }
-      #filmImgs33{
-        width:80%;
-        display: block;
-        text-align: center;
-      }
-
-      .yebdlg{
-        width:90%; margin-left: auto; margin-right: auto; display: block;
-      }
-
-        .subTitle{
-          font-size: 1.6rem;
-          font-weight: 700;
-          text-align: left;
-        }
-
-        .solutionPoint{
-        width:80%; height: auto;
-        }
-
-        .ballreadycolor{
-          color: #27A6DE;
-          font-weight: 800;
-        }
-
-        .betocolor{
-          color: red;
-          font-weight: 800;
-        }
-
-        .yomacolor{
-          color: #b2aa99;
-          font-weight: 800;
-        }
-
-        .portfolioProjects{
-          border: solid
-          display:inline-block;
-          width:auto;
-          margin:0rem 2.5rem 0rem 2.5rem;
-        }
-
-        .topPart{
-          width:auto;
-          margin:0rem 2.5rem 0rem 2.5rem;
-        }
-
-        .pf_next{
-          width:80%;
-        }
-
-        .daySszaDetail{
-          display: inline-block; width:80%; padding: 1rem;
-        }
-
-        .bibProblem{
-          display: inline-block; width:80%; padding: 1rem;
-        }
-
-        .bib2charac{
-          display: inline-block; width:50%; padding: 1rem 2rem;
-        }
-
-        .portfolioBowl{
-          margin:2rem 1.5rem 2rem 1.5rem;
-        }
-
-        .portfolioThumbs{
-          display: inline-block; margin: 1rem; width:70%;
-          padding: 0.7rem; background-color: white; border: .2rem solid white;
-        }
-
-        .portfolioTitles{
-          text-align: center;
-          align: center;
-          display: block;
-          margin: 0 auto 0 auto;
-          padding:1.7rem 0 1rem 0;
-        }
-
-
-        .slide_img{
-          width: 90%; height: 60%;
-          margin: auto;
-        }
-
-        .mainContents{
-          width:auto;
-           margin: 0;
-        }
-
-        .buttoninContents{
-          margin: 2rem 0rem 0rem 0rem;
-        }
-
-        .portalContainer2{
-          display:block;
-          margin: 0rem 0rem 0rem 0rem;
-        }
-
-        .portal{
-          width:auto;
-          height:2rem;
-        }
-
-        .portal2{
-          width:auto;
-          height:1.7rem;
-        }
-
-
-        .portalContainer{
-          display: block;
-          padding: 1rem 2.5rem 1rem 1rem
-        }
-
-        .resumeImgs{
-          box-shadow: 1px 1px 3px 1px lightgray;
-          margin: 0;
-          width: 100%;
-        }
-
-        .umZzal{display: inline-block; width:80%; padding: 0rem; margin: 1rem; border: solid 1px #e8e6e6;
-        }
-
-    html{font-size: 5px}
-
-    ul{border-right: none;}
-
-    li{
-      color: #454f5d;
-      opacity: 1;
-      font-size: 2.0rem;
-      padding:.4rem;
-    }
-
-    a {
-      color: #454f5d;
-      text-decoration: none;
-    }
-
-    ul{
-      width: 1fr;
-      margin: 0;
-      padding: 2.0rem 2.0rem 2.0rem 2.0rem;
-      list-style: none;
-      align-self: center;
-    }
-
-    body{
-      margin:0;
-    }
-
-    h1{
-      margin: 1.5rem 0rem 0rem 0rem;
-      font-size: 5rem;
-      font-weight: 800;
-    }
-
-    h2{
-      font-size: 3.5rem;
-      text-align: left;
-      font-weight: 800;
-    }
-
-    h3{
-      font-size: 2.5rem;
-      font-weight: 600;
-      margin-left: 2rem;
-      margin-right: 2rem;
-      text-align: justify;
-    }
-
-    h4{
-        font-size: 2rem;
-        font-weight: 600;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        margin-left: 2.5rem;
-        margin-right: 2.5rem;
-        text-align: center;
-    }
-
-    h5{
-      font-size: 1.5rem;
-      margin: 0rem 0rem 0rem 0rem;
-      padding: 0rem 0rem 1.5rem 0rem;
-      line-height: 150%;
-    }
-
-    iframe{
-      width: 420px;
-      height: 236px;
-    }
-
-  }
-@media(max-width: 570px){
-  #blank{
-    display: inline-block; width:80%;
+@media(max-width: 860px) {
+  body {
+    font-size: 1rem;
+    font-family: 'NanumSquare', sans-serif;
+    color: #454f5d;
   }
 
-  #blankContents{
-    width:70%; height:1px;
+  #indexMenuGrid {
+    display: grid;
+    width: auto;
+    height: 50px;
+    margin: 0rem 2.5rem 0rem 2.5rem;
+    grid-template-columns: 5rem 1fr;
   }
 
+  #grid {
+    display: block;
+  }
+
+  #YEBINJEONG {
+    width: 60px;
+    margin: .5rem 0 .5rem 0;
+    vertical-align: middle;
+  }
+
+  #yebinneon {
+    line-height: 70px;
+  }
+
+  #yebinneon img {
+    width: 60px;
+    margin: .5rem 0 .5rem 0;
+    vertical-align: middle;
+  }
+
+  #yebinMobileMenu {
+    line-height: 50px;
+  }
+
+  #yebinMobileMenu img {
+    width: 25px;
+    margin: .5rem 0 .5rem 0;
+    vertical-align: middle;
+  }
+
+  #YebinjeongFrame {
+    padding: 0;
+  }
+
+  #bottomPart {
+    border-top: 1px solid #454f5d;
+    width: 90%;
+    margin: 2.5rem auto 2.5rem auto;
+    padding-top: 2rem;
+  }
+
+  #leftMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #454f5d;
+    height: 70px;
+  }
+
+  #now {
+    opacity: 1;
+    font-weight: 800;
+  }
+
+  #webMenu {
+    display: none;
+  }
+
+  #coverLetter {
+    margin: 3rem .5rem 3rem .5rem;
+    display: block;
+    box-shadow: 3px 3px 7px 5px lightgray;
+  }
+
+  #CvContentsBox {
+    padding: 3rem;
+  }
+
+  #CvContents {
+    line-height: 150%;
+    margin: 0;
+  }
+
+  #profilestyle {
+    background-color: #f2f2f3;
+    padding: .5rem 3rem 1rem 3rem;
+  }
+
+  #portfolioGrid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 2rem 0rem 0rem 0rem;
+  }
+
+  #bottomContents {
+    color: #454f5d;
+    opacity: 0.5;
+    margin: 0rem 5rem 0rem 5rem;
+  }
+
+  #tkssza_use1 {
+    display: inline-block;
+    width: 80%;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+
+  #tkssza_use2 {
+    display: inline-block;
+    width: 80%;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+
+  #filmImgs10 {
+    width: 80%;
+    display: none;
+    text-align: center;
+  }
+
+  #filmImgs33 {
+    width: 80%;
+    display: block;
+    text-align: center;
+  }
+
+  .yebdlg {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .subTitle {
+    font-size: 1.7rem;
+    font-weight: 800;
+    text-align: left;
+  }
+
+  .solutionPoint {
+    width: 80%;
+    height: auto;
+  }
+
+  .ballreadycolor {
+    color: #27A6DE;
+    font-weight: 800;
+  }
+
+  .betocolor {
+    color: red;
+    font-weight: 800;
+  }
+
+  .yomacolor {
+    color: #b2aa99;
+    font-weight: 800;
+  }
+
+  .portfolioProjects {
+    border: solid display:inline-block;
+    width: auto;
+    margin: 0rem 2.5rem 0rem 2.5rem;
+  }
+
+  .topPart {
+    width: auto;
+    margin: 0rem 2.5rem 0rem 2.5rem;
+  }
+
+  .pf_next {
+    width: 80%;
+  }
+
+  .daySszaDetail {
+    display: inline-block;
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .bibProblem {
+    display: inline-block;
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .bib2charac {
+    display: inline-block;
+    width: 50%;
+    padding: 1rem 2rem;
+  }
+
+  .portfolioBowl {
+    margin: 2rem 1.5rem 2rem 1.5rem;
+  }
+
+  .portfolioThumbs {
+    display: inline-block;
+    margin: 1rem;
+    width: 70%;
+    padding: 0.7rem;
+    background-color: white;
+    border: .2rem solid white;
+  }
+
+  .portfolioTitles {
+    text-align: center;
+    align: center;
+    display: block;
+    margin: 0 auto 0 auto;
+    font-size: 1.5rem;
+    padding: 1.7rem 0 1rem 0;
+  }
+
+  .slide_img {
+    width: 90%;
+    height: 60%;
+    margin: auto;
+  }
+
+  .mainContents {
+    width: auto;
+    margin: 0;
+  }
+
+  .buttoninContents {
+    margin: 2rem 0rem 0rem 0rem;
+  }
+
+  .portalContainer2 {
+    display: block;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+
+  .portal {
+    width: auto;
+    height: 2rem;
+  }
+
+  .portal2 {
+    width: auto;
+    height: 1.7rem;
+  }
+
+  .portalContainer {
+    display: block;
+    padding: 1rem 2.5rem 1rem 1rem
+  }
+
+  .resumeImgs {
+    box-shadow: 1px 1px 3px 1px lightgray;
+    margin: 0;
+    width: 100%;
+  }
+
+  .umZzal {
+    display: inline-block;
+    width: 80%;
+    padding: 0rem;
+    margin: 1rem;
+    border: solid 1px #e8e6e6;
+  }
+
+  html {
+    font-size: 5px
+  }
+
+  ul {
+    border-right: none;
+  }
+
+  li {
+    color: #454f5d;
+    opacity: 1;
+    font-size: 2.0rem;
+    padding: .4rem;
+  }
+
+  a {
+    color: #454f5d;
+    text-decoration: none;
+  }
+
+  ul {
+    width: 1fr;
+    margin: 0;
+    padding: 2.0rem 2.0rem 2.0rem 2.0rem;
+    list-style: none;
+    align-self: center;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    margin: 1.5rem 0rem 0rem 0rem;
+    font-size: 5rem;
+    font-weight: 800;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+    text-align: left;
+    font-weight: 800;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+  }
+
+  h4 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0rem 0rem 1.5rem 0rem;
+    line-height: 150%;
+  }
+
+  iframe {
+    width: 420px;
+    height: 236px;
+  }
 }
-@media(max-width: 480px){
-  iframe{
+
+@media(max-width: 570px) {
+  #blank {
+    display: inline-block;
+    width: 80%;
+  }
+
+  #blankContents {
+    width: 70%;
+    height: 1px;
+  }
+}
+
+@media(max-width: 480px) {
+  iframe {
     width: 294px;
     height: 165.2px;
   }
 }
 
-@media(max-width: 325px){
-  iframe{
+@media(max-width: 325px) {
+  iframe {
     width: 210px;
     height: 118px;
   }
 
-  #blank{
-    display: inline-block; width:40%;
+  #blank {
+    display: inline-block;
+    width: 40%;
   }
 
-  #blankContents{
-    width:40%; height:1px;
+  #blankContents {
+    width: 40%;
+    height: 1px;
   }
-
 }
